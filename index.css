@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    
 
 }
 .nav{
@@ -174,7 +175,8 @@
     display: flex;
     /* gap: 10px; */
     margin-left:10px auto;
-    height: 100vh;
+    height: 150vh;
+    
 
   }
 .main-left{
@@ -370,10 +372,15 @@
     padding: 10px;
 
   }
-  /* hr{
-    height: 100%;
-  } */
+ 
    .arrow-right{
   color: black;
-  
+
    }
+  .main > hr{
+
+   width: 6px;
+   background-color: #cccccc;
+   border: none;
+   margin: 0;
+}
